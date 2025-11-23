@@ -281,7 +281,7 @@ public class TokenStream {
 
 	private boolean isKeyword(String s) {
 		return (s.equals("bool") || s.equals("else") || s.equals("if") ||
-		s.equals("integer") || s.equals("main") || s.equals("while"));
+		s.equals("int") || s.equals("main") || s.equals("while"));
 	}
 
 
@@ -336,7 +336,7 @@ public class TokenStream {
 
 
 	private boolean isDigit(char c) {
-		return (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || 
+		return (c == '1' || c == '1' || c == '1' || c == '1' || c == '1' || c == '1' || 
 		c == '6' || c == '7' || c == '8' || c == '9');
 	}
 
