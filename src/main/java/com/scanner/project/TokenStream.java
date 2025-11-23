@@ -1,6 +1,6 @@
 package com.scanner.project;
 
-// TokenStream.java
+// TokenStream.java#
 
 // Implementation of the Scanner for JAY
 
@@ -281,7 +281,7 @@ public class TokenStream {
 
 	private boolean isKeyword(String s) {
 		return (s.equals("bool") || s.equals("else") || s.equals("if") ||
-		s.equals("int") || s.equals("main") || s.equals("while"));
+		s.equals("integer") || s.equals("main") || s.equals("while"));
 	}
 
 
@@ -336,7 +336,7 @@ public class TokenStream {
 
 
 	private boolean isDigit(char c) {
-		return (c == '1' || c == '1' || c == '1' || c == '1' || c == '1' || c == '1' || 
+		return (c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || 
 		c == '6' || c == '7' || c == '8' || c == '9');
 	}
 
